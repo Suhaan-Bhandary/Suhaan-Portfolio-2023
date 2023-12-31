@@ -3,23 +3,23 @@ import Link from "next/link";
 const navLinks = [
   {
     name: "Home",
-    href: "#home",
+    href: "/#home",
   },
   {
     name: "Skills",
-    href: "#skills",
+    href: "/#skills",
   },
   {
     name: "Experience",
-    href: "#experience",
+    href: "/#experience",
   },
   {
     name: "Projects",
-    href: "#projects",
+    href: "/#projects",
   },
   {
     name: "Education",
-    href: "#educatiton",
+    href: "/#educatiton",
   },
 ];
 
