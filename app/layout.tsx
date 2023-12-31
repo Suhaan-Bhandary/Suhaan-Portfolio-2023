@@ -36,7 +36,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <Header />
         <SideBar />
-        <main className="px-40">
+        <main className="px-2 md:px-40">
           {modal}
           {children}
           {skills}
