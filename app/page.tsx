@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <section className="container min-h-svh flex flex-col justify-center">
+    <section className="container mx-auto min-h-svh flex flex-col justify-center">
       <h1 className="mb-1">
         <span className="mb-4 block text-accent-400 text-base md:text-xl ml-1">
           Hi, my name is
