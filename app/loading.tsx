@@ -17,25 +17,7 @@ export default function Loading() {
             animation: "4s infinite alternate animate-stroke",
           }}
         >
-          Suhaan Bhandary
-        </text>
-        <text
-          x="50%"
-          y="50%"
-          dy="0.32em"
-          dx="4.2em"
-          textAnchor="middle"
-          style={{
-            fontSize: "2rem",
-            stroke: "white",
-            strokeWidth: 3,
-            fontWeight: "700",
-            fill: "transparent",
-            letterSpacing: "4px-",
-            animation: "4s infinite alternate animate-stroke",
-          }}
-        >
-          .
+          Suhaan Bhandary.
         </text>
       </svg>
     </div>
