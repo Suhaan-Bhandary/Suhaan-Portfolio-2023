@@ -41,3 +41,30 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* Loading animation */
+@keyframes animate-stroke {
+  0% {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 3;
+    stroke-dashoffset: 25%;
+
+    /* Defines the pattern of dash and gap */
+    stroke-dasharray: 0 32%;
+  }
+
+  50% {
+    fill: transparent;
+    stroke: white;
+    stroke-width: 3;
+  }
+
+  90%,
+  100% {
+    stroke: transparent;
+    stroke-width: 0;
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 32% 0;
+  }
+}
