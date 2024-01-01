@@ -14,7 +14,7 @@ export default function Loading() {
             fontWeight: "700",
             fill: "transparent",
             letterSpacing: "4px-",
-            animation: "4s infinite alternate animate-stroke",
+            animation: "8s infinite alternate animate-stroke",
           }}
         >
           Suhaan Bhandary.
