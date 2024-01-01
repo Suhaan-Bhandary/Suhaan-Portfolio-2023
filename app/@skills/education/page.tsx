@@ -2,7 +2,7 @@ import { education } from "@/constants/education";
 
 export default function Education() {
   return (
-    <div className="h-fit mt-10 mx-auto relative px-8">
+    <div className="h-fit py-10 mx-auto relative md:px-8">
       <ul>
         {education.map(({ college, role, joinDate, endDate }) => (
           <li key={`${joinDate}-${endDate}`} className="relative mb-12 mt-1">

@@ -2,7 +2,7 @@ import { skillsList } from "@/constants/skills";
 
 export default function Skills() {
   return (
-    <div className="px-8 py-5 flex flex-col gap-5">
+    <div className="md:px-8 py-5 flex flex-col gap-5">
       {skillsList.map(({ label, skills }) => (
         <div key={label}>
           <h2 className="text-lg">{label}</h2>
