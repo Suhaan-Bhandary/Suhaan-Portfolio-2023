@@ -21,19 +21,6 @@ export default function SkillsTabNavigatorHeader() {
         Skills
       </Link>
       <Link
-        href="/about"
-        className={`
-          border border-accent-400 rounded-md py-1 px-2
-          ${
-            currentRoute === "/about"
-              ? "bg-accent-400 bg-opacity-20 text-accent-400"
-              : ""
-          }
-        `}
-      >
-        About
-      </Link>
-      <Link
         href="/education"
         className={`
           border border-accent-400 rounded-md py-1 px-2

@@ -8,18 +8,20 @@ export default function SkillsLayouts({
   children: React.ReactNode;
 }) {
   return (
-    <div className="min-h-lvh my-10 scroll-m-24">
+    <div className="container mx-auto mt-16 mb-20 scroll-m-24" id="skills">
       <h2 className="mb-6 md:mb-14 text-4xl text-center">About Me</h2>
-      <div>
-        <div className="rounded-sm mx-auto mb-6">
-          <h3 className="text-accent-400 text-sm">Hi everyone,</h3>
+      <div className="md:grid md:grid-cols-2">
+        <div className="hidden md:block rounded-sm mx-auto mb-6 md:mb-0 md:translate-y-2 overflow-hidden">
           <Image
             src={SuhaanBhandaryImage}
             alt="Suhaan Bhandary Standing with Hoodie On"
-            className="rounded-sm"
+            className="rounded-sm mx-auto border-[2px] border-textLight-800"
+            style={{
+              borderRadius: "30% 70% 44% 56% / 72% 30% 70% 28%",
+            }}
           ></Image>
         </div>
-        <div id="skills" className="scroll-m-24">
+        <div>
           <div>
             <SkillsTabNavigatorHeader />
           </div>
