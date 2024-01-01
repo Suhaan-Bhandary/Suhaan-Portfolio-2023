@@ -9,6 +9,7 @@ export default function SkillsTabNavigatorHeader() {
     <div className="flex overflow-auto gap-2 items-center justify-center">
       <Link
         href="/#skills"
+        scroll={false}
         className={`
           border border-accent-400 rounded-md py-1 px-2
           ${
@@ -22,6 +23,7 @@ export default function SkillsTabNavigatorHeader() {
       </Link>
       <Link
         href="/education"
+        scroll={false}
         className={`
           border border-accent-400 rounded-md py-1 px-2
           ${
