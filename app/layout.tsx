@@ -22,14 +22,12 @@ export default function RootLayout({
   skills,
   experience,
   projects,
-  education,
 }: {
   children: React.ReactNode;
   modal: React.ReactNode;
   skills: React.ReactNode;
   experience: React.ReactNode;
   projects: React.ReactNode;
-  education: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -42,7 +40,6 @@ export default function RootLayout({
           {skills}
           {experience}
           {projects}
-          {education}
           <Footer />
         </main>
       </body>

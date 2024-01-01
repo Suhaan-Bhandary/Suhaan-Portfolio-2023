@@ -19,7 +19,7 @@ const navLinks = [
   },
   {
     name: "Education",
-    href: "/#educatiton",
+    href: "/education#skills",
   },
 ];
 
