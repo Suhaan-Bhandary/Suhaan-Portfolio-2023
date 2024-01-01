@@ -29,6 +29,10 @@ const config: Config = {
         400: "#97FFF4",
       },
     },
+    boxShadow: {
+      boxFade: "rgba(151, 255, 244, 0.15) 6px 6px 0px",
+      boxFull: "rgba(151, 255, 244, 0.7) 6px 6px 0px",
+    },
   },
   plugins: [],
 };

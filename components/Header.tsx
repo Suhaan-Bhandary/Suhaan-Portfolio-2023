@@ -25,7 +25,7 @@ const navLinks = [
 
 export default function Header() {
   return (
-    <div className="fixed left-0 right-0 mx-auto flex items-center px-10 py-2 h-24 bg-bgBlack-800">
+    <div className="fixed z-50 left-0 right-0 mx-auto flex items-center px-10 py-2 h-24 bg-bgBlack-800">
       <h1 className="font-bold text-2xl">
         <Link href="/">SB</Link>
       </h1>

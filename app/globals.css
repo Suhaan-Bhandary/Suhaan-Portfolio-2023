@@ -7,12 +7,18 @@
 } */
 
 :root {
+  --accent: 151, 255, 244;
   --background-color-primary: 25, 25, 36;
   --background-color-secondary: 28, 28, 39;
 
   --text-color-white: 242, 243, 244;
   --text-color-slate: 136, 146, 176;
   --text-color-white-dim: 177, 178, 179;
+}
+
+/* Set core root defaults */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
