@@ -57,6 +57,7 @@ export default function Header() {
                 <li key={name}>
                   <Link
                     href={href}
+                    onClick={toggleNavbar}
                     className="text-xl hover:text-accent-400 md:text-base"
                   >
                     {name}
