@@ -32,9 +32,6 @@ export default function ProjectDetailModal({ params: { projectId } }: props) {
           ></Image>
         </div>
         <p className="text-textLight-400 mt-3 mb-5">{project.detail}</p>
-        <p className="text-textLight-400 mt-3 mb-5">{project.detail}</p>
-        <p className="text-textLight-400 mt-3 mb-5">{project.detail}</p>
-        <p className="text-textLight-400 mt-3 mb-5">{project.detail}</p>
         <ul className="flex justify-start flex-wrap gap-2 mb-5">
           {project.techStack.map((tech) => (
             <li
