@@ -25,6 +25,7 @@ const config: Config = {
         600: "#ccd6f6",
         800: "rgb(242, 243, 244)",
       },
+      white: "#fff",
       accent: {
         400: "#97FFF4",
       },
