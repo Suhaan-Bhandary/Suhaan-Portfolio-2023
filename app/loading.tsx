@@ -10,7 +10,7 @@ export default function Loading() {
           style={{
             fontSize: "2rem",
             stroke: "white",
-            strokeWidth: 3,
+            strokeWidth: 2,
             fontWeight: "700",
             fill: "transparent",
             letterSpacing: "4px-",
