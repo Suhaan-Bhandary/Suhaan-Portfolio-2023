@@ -12,7 +12,7 @@ export default function Projects() {
       className="container mx-auto scroll-m-24 py-5 max-w-[1100px]"
       id="projects"
     >
-      <h2 className="mb-6 md:mb-6 text-4xl text-center">Projects</h2>
+      <h2 className="mb-6 md:mb-0 text-4xl text-center">Projects</h2>
 
       <div className="flex flex-col mx-auto">
         {projects
