@@ -32,7 +32,7 @@ export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const toggleNavbar = () => {
-    setIsNavOpen((state) => !state);
+    setIsNavOpen(false);
   };
 
   return (
