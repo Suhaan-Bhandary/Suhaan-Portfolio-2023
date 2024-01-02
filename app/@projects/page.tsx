@@ -70,7 +70,7 @@ export default function Projects() {
                         href={codeURL}
                         className="text-center flex-grow lg:flex-grow-0 relative block border px-6 py-2 text-md border-accent-400 text-accent-400 rounded-sm w-fit"
                       >
-                        <div className="absolute hover:scale-x-[0.90] hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
+                        <div className="absolute md:hover:scale-x-[0.90] md:hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
                         Live
                       </Link>
                     ) : null}
@@ -79,7 +79,7 @@ export default function Projects() {
                         href={infoURL}
                         className="text-center flex-grow lg:flex-grow-0 relative block border px-6 py-2 text-md border-accent-400 text-accent-400 rounded-sm w-fit"
                       >
-                        <div className="absolute hover:scale-x-[0.90] hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
+                        <div className="absolute md:hover:scale-x-[0.90] md:hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
                         Detail
                       </Link>
                     ) : null}
@@ -88,7 +88,7 @@ export default function Projects() {
                         href={liveURL}
                         className="text-center flex-grow lg:flex-grow-0 relative block border px-6 py-2 text-md border-accent-400 text-accent-400 rounded-sm w-fit"
                       >
-                        <div className="absolute hover:scale-x-[0.90] hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
+                        <div className="absolute md:hover:scale-x-[0.90] md:hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
                         Code
                       </Link>
                     ) : null}
@@ -97,7 +97,7 @@ export default function Projects() {
                       className="text-center flex-grow lg:flex-grow-0 relative block border px-6 py-2 text-md border-accent-400 text-accent-400 rounded-sm w-fit"
                       scroll={false}
                     >
-                      <div className="absolute hover:scale-x-[0.90] hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
+                      <div className="absolute md:hover:scale-x-[0.90] md:hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
                       View Detail
                     </Link>
                   </div>
@@ -142,7 +142,7 @@ export default function Projects() {
                       className="relative block border px-6 py-2 text-md border-accent-400 text-accent-400 rounded-sm w-fit"
                       scroll={false}
                     >
-                      <div className="absolute hover:scale-x-[0.90] hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
+                      <div className="absolute md:hover:scale-x-[0.90] md:hover:scale-y-[0.8] left-0 right-0 top-0 bottom-0 border border-accent-400 text-accent-400 rounded-sm transition-transform duration-200"></div>
                       Detail
                     </Link>
                   </div>
