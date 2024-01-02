@@ -78,3 +78,23 @@ body {
     stroke-dasharray: 32% 0;
   }
 }
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(40, 40, 49);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(26, 211, 192);
+}
+
+@supports (scrollbar-color: rgb(26, 211, 192) rgb(40, 40, 49)) {
+  * {
+    scrollbar-color: rgb(26, 211, 192) rgb(40, 40, 49);
+  }
+}
