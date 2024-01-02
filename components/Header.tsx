@@ -31,8 +31,12 @@ const navLinks = [
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
-  const toggleNavbar = () => {
+  const closeNavbar = () => {
     setIsNavOpen(false);
+  };
+
+  const toggleNavbar = () => {
+    setIsNavOpen((state) => !state);
   };
 
   return (
@@ -57,7 +61,7 @@ export default function Header() {
                 <li key={name}>
                   <Link
                     href={href}
-                    onClick={toggleNavbar}
+                    onClick={closeNavbar}
                     className="text-xl hover:text-accent-400 md:text-base"
                   >
                     {name}
