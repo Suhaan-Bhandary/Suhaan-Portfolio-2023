@@ -1,21 +1,21 @@
-"use client";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+'use client';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function SkillsTabNavigatorHeader() {
   const currentRoute = usePathname();
 
   return (
-    <div className="flex overflow-auto gap-2 items-center justify-center">
+    <div className="flex items-center justify-center gap-2 overflow-auto">
       <Link
         href="/#skills"
         scroll={false}
         className={`
-          border border-accent-400 rounded-md py-1 px-2
+          rounded-md border border-accent-400 px-2 py-1
           ${
-            currentRoute === "/"
-              ? "bg-accent-400 bg-opacity-20 text-accent-400"
-              : ""
+            currentRoute === '/'
+              ? 'bg-accent-400 bg-opacity-20 text-accent-400'
+              : ''
           }
         `}
       >
@@ -25,11 +25,11 @@ export default function SkillsTabNavigatorHeader() {
         href="/education"
         scroll={false}
         className={`
-          border border-accent-400 rounded-md py-1 px-2
+          rounded-md border border-accent-400 px-2 py-1
           ${
-            currentRoute === "/education"
-              ? "bg-accent-400 bg-opacity-20 text-accent-400"
-              : ""
+            currentRoute === '/education'
+              ? 'bg-accent-400 bg-opacity-20 text-accent-400'
+              : ''
           }
         `}
       >
