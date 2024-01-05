@@ -1,5 +1,6 @@
 'use client';
 
+import { useStopScroll } from '@/hooks/useStopScroll';
 import Link from 'next/link';
 import { useState } from 'react';
 import { IoMdClose } from 'react-icons/io';
@@ -30,6 +31,9 @@ const navLinks = [
 
 export default function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
+
+  // Stop scrolling
+  useStopScroll(isNavOpen);
 
   const closeNavbar = () => {
     setIsNavOpen(false);

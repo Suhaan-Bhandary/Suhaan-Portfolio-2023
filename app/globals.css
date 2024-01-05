@@ -19,6 +19,7 @@
 /* Set core root defaults */
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 body {

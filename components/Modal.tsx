@@ -1,5 +1,6 @@
 'use client';
 
+import { useStopScroll } from '@/hooks/useStopScroll';
 import { useRouter } from 'next/navigation';
 import { IoMdClose } from 'react-icons/io';
 
@@ -8,6 +9,9 @@ type props = {
 };
 
 export default function Modal({ children }: props) {
+  // Hook stops scrolling when modal is open
+  useStopScroll();
+
   const router = useRouter();
 
   return (
