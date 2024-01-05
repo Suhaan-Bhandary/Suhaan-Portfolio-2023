@@ -45,7 +45,7 @@ export default function Header() {
         <div className="fixed inset-0 z-20 bg-bgBlack-400 bg-opacity-50"></div>
       ) : null}
 
-      <div className="fixed left-0 right-0 z-[45] mx-auto flex h-24 items-center bg-bgBlack-800 px-10 py-2">
+      <div className="fixed left-0 right-0 top-0 z-[45] mx-auto flex h-24 items-center bg-bgBlack-800 px-10 py-2">
         <h1 className="text-2xl font-bold">
           <Link href="/">SB</Link>
         </h1>
