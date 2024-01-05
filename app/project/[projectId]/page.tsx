@@ -9,6 +9,12 @@ type props = {
   };
 };
 
+export async function generateStaticParams() {
+  return projects.map((project) => ({
+    projectId: getSlugFromString(project.title),
+  }));
+}
+
 export default function ProjectDetail({ params: { projectId } }: props) {
   const project = projects.find(
     (project) => getSlugFromString(project.title) === projectId,
