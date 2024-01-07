@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Experience() {
   return (
     <div
-      className="my-10 flex min-h-lvh scroll-m-24 flex-col items-center justify-center"
+      className="min-h-lvhScreen my-10 flex scroll-m-24 flex-col items-center justify-center"
       id="experience"
     >
       <h2 className="mb-10 text-4xl md:mb-14">Experience</h2>

@@ -43,6 +43,27 @@ body {
   }
 }
 
+/* Height */
+.h-svhScreen {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.h-lvhScreen {
+  min-height: 100vh;
+  min-height: 100lvh;
+}
+
+.min-h-svhScreen {
+  min-height: 100vh;
+  min-height: 100svh;
+}
+
+.min-h-lvhScreen {
+  min-height: 100vh;
+  min-height: 100lvh;
+}
+
 /* Loading animation */
 @keyframes animate-stroke {
   0% {
