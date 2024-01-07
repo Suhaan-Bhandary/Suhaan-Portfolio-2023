@@ -12,8 +12,12 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'Suhaan Bhandary',
-  description: 'Suhaan Bhandary Portfolio Website',
+  title: {
+    default: 'Portfolio | Suhaan Bhandary',
+    template: '%s | Suhaan Bhandary',
+  },
+  description:
+    'Full Stack Developer with a passion for innovation, specializing in React, Express, and TypeScript, dedicated to crafting seamless solutions and enhancing user experiences.',
 };
 
 export default function RootLayout({

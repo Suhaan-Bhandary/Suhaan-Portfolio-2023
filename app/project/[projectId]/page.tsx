@@ -1,13 +1,34 @@
 import { projects } from '@/constants/projects';
 import getSlugFromString from '@/utils/getSlugFromString';
+import { Metadata, ResolvingMetadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
-type props = {
+type Props = {
   params: {
     projectId: string;
   };
 };
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata,
+): Promise<Metadata> {
+  const project = projects.find(
+    (project) => getSlugFromString(project.title) == params.projectId,
+  );
+
+  // optionally access and extend (rather than replace) parent metadata
+  const previousImages = (await parent).openGraph?.images || [];
+
+  return {
+    title: `${project?.title} Project`,
+    description: project?.detail,
+    openGraph: {
+      images: [...previousImages],
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return projects.map((project) => ({
@@ -15,7 +36,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default function ProjectDetail({ params: { projectId } }: props) {
+export default function ProjectDetail({ params: { projectId } }: Props) {
   const project = projects.find(
     (project) => getSlugFromString(project.title) === projectId,
   );
