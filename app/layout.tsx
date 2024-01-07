@@ -23,6 +23,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  category: 'technology',
 };
 
 export default function RootLayout({
