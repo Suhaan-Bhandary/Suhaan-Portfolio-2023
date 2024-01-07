@@ -9,22 +9,31 @@ export default function SideBar() {
       <div className="fixed bottom-0 left-10 right-auto z-10 hidden w-10 md:block">
         <ul className="mx-auto flex flex-col items-center justify-center gap-6 text-[1.6rem] after:block after:h-20 after:w-[1px] after:bg-textLight-200 after:content-['']">
           <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
-            <Link href="https://www.linkedin.com/in/suhaan-bhandary">
+            <Link
+              href="https://www.linkedin.com/in/suhaan-bhandary"
+              aria-label="LinkedIn"
+            >
               <FaLinkedin />
             </Link>
           </li>
           <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
-            <Link href="https://github.com/Suhaan-Bhandary">
+            <Link href="https://github.com/Suhaan-Bhandary" aria-label="GitHub">
               <FaGithub />
             </Link>
           </li>
           <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
-            <Link href="https://leetcode.com/suhaanbhandary1/">
+            <Link
+              href="https://leetcode.com/suhaanbhandary1/"
+              aria-label="Leetcode"
+            >
               <TbBrandLeetcode />
             </Link>
           </li>
           <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
-            <Link href="https://auth.geeksforgeeks.org/user/suhaanbhandary1/practice">
+            <Link
+              href="https://auth.geeksforgeeks.org/user/suhaanbhandary1/practice"
+              aria-label="GeeksForGeeks"
+            >
               <SiGeeksforgeeks />
             </Link>
           </li>
