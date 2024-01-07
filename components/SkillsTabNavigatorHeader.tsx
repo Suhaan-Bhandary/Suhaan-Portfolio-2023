@@ -18,6 +18,7 @@ export default function SkillsTabNavigatorHeader() {
               : ''
           }
         `}
+        aria-label="skills"
       >
         Skills
       </Link>
@@ -32,6 +33,7 @@ export default function SkillsTabNavigatorHeader() {
               : ''
           }
         `}
+        aria-label="education"
       >
         Education
       </Link>

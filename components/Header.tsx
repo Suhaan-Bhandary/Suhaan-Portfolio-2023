@@ -67,6 +67,7 @@ export default function Header() {
                     href={href}
                     onClick={closeNavbar}
                     className="text-xl hover:text-accent-400 md:text-base"
+                    aria-label={name}
                   >
                     {name}
                   </Link>
@@ -78,6 +79,7 @@ export default function Header() {
           <Link
             href="#"
             className="hidden rounded-sm border border-accent-400 px-4 py-2 text-sm text-accent-400 md:block"
+            aria-label="resume"
           >
             Resume
           </Link>

@@ -65,9 +65,9 @@ export default function Projects() {
                   </ul>
 
                   <div className="flex flex-wrap gap-2">
-                    {codeURL ? (
+                    {liveURL ? (
                       <Link
-                        href={codeURL}
+                        href={liveURL}
                         className="text-md relative block w-fit flex-grow rounded-sm border border-accent-400 px-6 py-2 text-center text-accent-400 lg:flex-grow-0"
                       >
                         <div className="absolute bottom-0 left-0 right-0 top-0 rounded-sm border border-accent-400 text-accent-400 transition-transform duration-200 md:hover:scale-x-[0.90] md:hover:scale-y-[0.8]"></div>
@@ -83,9 +83,9 @@ export default function Projects() {
                         Detail
                       </Link>
                     ) : null}
-                    {liveURL ? (
+                    {codeURL ? (
                       <Link
-                        href={liveURL}
+                        href={codeURL}
                         className="text-md relative block w-fit flex-grow rounded-sm border border-accent-400 px-6 py-2 text-center text-accent-400 lg:flex-grow-0"
                       >
                         <div className="absolute bottom-0 left-0 right-0 top-0 rounded-sm border border-accent-400 text-accent-400 transition-transform duration-200 md:hover:scale-x-[0.90] md:hover:scale-y-[0.8]"></div>

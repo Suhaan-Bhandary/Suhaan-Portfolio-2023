@@ -48,6 +48,7 @@ export default function Experience() {
                     href={joiningLetter}
                     className="absolute right-5 top-5 rounded-md border-accent-400 bg-accent-400 bg-opacity-30 px-2 py-1 text-xs text-accent-400 text-opacity-90 hover:border"
                     target="_blank"
+                    aria-label="Joining Letter"
                   >
                     Certificate
                   </Link>
@@ -58,6 +59,7 @@ export default function Experience() {
                     href={certificate}
                     className="absolute right-5 top-5 rounded-md border-accent-400 bg-accent-400 bg-opacity-30 px-2 py-1 text-xs text-accent-400 text-opacity-90 hover:border"
                     target="_blank"
+                    aria-label="Certificate"
                   >
                     Certificate
                   </Link>

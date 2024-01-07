@@ -12,12 +12,19 @@ export default function SideBar() {
             <Link
               href="https://www.linkedin.com/in/suhaan-bhandary"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <FaLinkedin />
             </Link>
           </li>
           <li className="cursor-pointer transition-transform duration-75 hover:translate-y-[-5px] hover:text-accent-400">
-            <Link href="https://github.com/Suhaan-Bhandary" aria-label="GitHub">
+            <Link
+              href="https://github.com/Suhaan-Bhandary"
+              aria-label="GitHub"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <FaGithub />
             </Link>
           </li>
@@ -25,6 +32,8 @@ export default function SideBar() {
             <Link
               href="https://leetcode.com/suhaanbhandary1/"
               aria-label="Leetcode"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <TbBrandLeetcode />
             </Link>
@@ -33,6 +42,8 @@ export default function SideBar() {
             <Link
               href="https://auth.geeksforgeeks.org/user/suhaanbhandary1/practice"
               aria-label="GeeksForGeeks"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               <SiGeeksforgeeks />
             </Link>
@@ -50,6 +61,8 @@ export default function SideBar() {
               WebkitWritingMode: 'vertical-rl',
               writingMode: 'vertical-rl',
             }}
+            target="_blank"
+            rel="noreferrer noopener"
           >
             suhaanbhandary1@gmail.com
           </Link>
