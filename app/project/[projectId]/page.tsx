@@ -27,8 +27,12 @@ export async function generateMetadata(
     alternates: {
       canonical: `/project/${params.projectId}`,
     },
+    // First image is given priority
     openGraph: {
-      images: [...previousImages],
+      images: [
+        `/project/${params.projectId}/opengraph-image`,
+        ...previousImages,
+      ],
     },
   };
 }
