@@ -13,12 +13,14 @@ export const size = {
 };
 export const contentType = 'image/png';
 
-export default async function Image({
-  params,
-}: {
-  params: { projectId: string };
-}) {
-  const projectId = params?.projectId || 'interview-experience';
+type props = {
+  params: {
+    projectId: string;
+  };
+};
+
+export default async function Image({ params }: props) {
+  const projectId = params?.projectId;
   const project = projects.find(
     (project) => getSlugFromString(project.title) === projectId,
   );
