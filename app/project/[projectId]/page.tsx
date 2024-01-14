@@ -54,7 +54,9 @@ export default function ProjectDetail({ params: { projectId } }: Props) {
 
   return (
     <div className="pt-24">
-      <p className="mb-3s text-xs font-medium tracking-wide text-textLight-400">{`${project.startDate} - ${project.endDate}`}</p>
+      <p className="mb-3s text-xs font-medium tracking-wide text-textLight-400">{`${
+        project.startDate
+      }${project.endDate ? ` - ${project.endDate}` : ''}`}</p>
       <h1 className="text-2xl">{project.title}</h1>
       <div>
         <Image

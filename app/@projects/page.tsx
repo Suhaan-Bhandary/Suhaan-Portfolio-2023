@@ -41,7 +41,9 @@ export default function Projects() {
                   />
                 </div>
                 <div className="self-center p-5">
-                  <p className="mb-3s text-xs font-medium tracking-wide text-textLight-400">{`${startDate} - ${endDate}`}</p>
+                  <p className="mb-3s text-xs font-medium tracking-wide text-textLight-400">{`${startDate}${
+                    endDate ? ` - ${endDate}` : ''
+                  }`}</p>
                   <h3 className="text-xl">{title}</h3>
 
                   <Link
@@ -131,7 +133,9 @@ export default function Projects() {
                     />
                   </div>
                   <div className="self-center p-5">
-                    <p className="mb-3s text-xs font-medium tracking-wide text-textLight-400">{`${startDate} - ${endDate}`}</p>
+                    <p className="mb-3s text-xs font-medium tracking-wide text-textLight-400">{`${startDate}${
+                      endDate ? ` - ${endDate}` : ''
+                    }`}</p>
                     <h3 className="text-xl">{title}</h3>
                     <p className="mb-5 mt-3 text-textLight-400">
                       {detail.slice(0, 100)}...

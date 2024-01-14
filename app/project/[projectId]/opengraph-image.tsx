@@ -49,7 +49,9 @@ export default async function Image({
             <div tw={`font-medium text-emerald-600`}>Suhaan Bhandary</div>
             <div tw="w-4 h-4 mx-6 rounded-full bg-neutral-300" />
             <div tw="flex">
-              {project?.startDate} - {project?.endDate}
+              {`${project?.startDate}${
+                project?.endDate ? ` - ${project?.endDate}` : ''
+              }`}
             </div>
           </div>
         </div>
