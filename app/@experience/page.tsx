@@ -29,7 +29,13 @@ export default function Experience() {
                   <p className="mb-3s text-sm font-medium tracking-wide text-textLight-400 lg:absolute lg:top-[-30px]">{`${joinDate} - ${endDate}`}</p>
                   <h3 className="text-xl">{role}</h3>
                   <h4 className="text-sm">{company}</h4>
-                  <p className="mb-4 mt-3 text-textLight-400">{detail}</p>
+                  <ul className="mb-4 mt-3">
+                    {detail.map((line, i) => (
+                      <li key={i} className="my-2 text-textLight-400">
+                        {line}
+                      </li>
+                    ))}
+                  </ul>
                   <ul className="flex flex-wrap justify-start gap-2">
                     {skills.map((skill) => (
                       <li

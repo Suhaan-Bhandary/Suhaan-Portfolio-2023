@@ -1,26 +1,23 @@
 export const experiences = [
   {
-    role: 'Software Engineer Intern',
+    role: 'Intern',
     company: 'Josh Software Pvt. Ltd',
     joinDate: 'Jan 2024',
     endDate: 'Present',
-    detail: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis,
-    quis fugiat natus hic quibusdam accusantium vero autem, officia nobis
-    laudantium nihil, ullam similique cumque. Repudiandae temporibus ipsum
-    quisquam consectetur quae.`,
-    skills: [''],
-    certificate: '',
-    joiningLetter: '',
+    detail: [`Joined Josh as an Intern recently in Jan 2024.`],
+    skills: ['React', 'Golang', 'Git', 'SQL'],
+    joiningLetter:
+      'https://drive.google.com/file/d/1PrMA-6Li5sGQ4yyNoAsJHcjtFdLhZOKX/view?usp=sharing',
   },
   {
     role: 'Full Stack Developer',
     company: 'Syphor IT Services',
     joinDate: 'Sep 2023',
     endDate: 'Dec 2023',
-    detail: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis,
-    quis fugiat natus hic quibusdam accusantium vero autem, officia nobis
-    laudantium nihil, ullam similique cumque. Repudiandae temporibus ipsum
-    quisquam consectetur quae.`,
+    detail: [
+      `Worked on a Learning Management System for the Ministry of Education of Ghana, Africa.`,
+      `Improved performance by reducing queries to the database. Also rectified AWS build configuration for a service within the application. Organized code into components to properly manage state, reducing the total re-renders.`,
+    ],
     skills: [
       'ReactJs',
       'ExpressJs',
@@ -30,32 +27,37 @@ export const experiences = [
       'Git',
       'GitHub',
     ],
-    certificate: 'https://google.com',
+    certificate:
+      'https://drive.google.com/file/d/1-dZ_OEWuZ7y-aOC6vQn5q5vlyyP4O2GK/view?usp=sharing',
   },
   {
     role: 'Frontend Developer',
     company: 'ArcTech Labs Pvt Ltd',
     joinDate: 'Dec 2022',
     endDate: 'Feb 2023',
-    detail: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis,
-    quis fugiat natus hic quibusdam accusantium vero autem, officia nobis
-    laudantium nihil, ullam similique cumque. Repudiandae temporibus ipsum
-    quisquam consectetur quae.`,
-    skills: [''],
-    certificate: '',
-    joiningLetter: '',
+    detail: [
+      `Increased visual feedback on House Mapping Tool for improving User Experience.`,
+      `Improved performance by 30% by redesigning Routing structure which Refined loading Saved Data Performance.`,
+    ],
+    skills: [
+      'ReactJs',
+      'ExpressJs',
+      'Typescript',
+      'AWS',
+      'PostgreSQL',
+      'Git and GitHub',
+    ],
+    certificate:
+      'https://drive.google.com/file/d/1AHwu_qiF92uOcMvOG-9prSLXYapkslrq/view?usp=sharing',
   },
   {
     role: 'DSA Content Creator',
     company: 'Fundesk',
     joinDate: 'Sep 2022',
     endDate: 'Nov 2022',
-    detail: `Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis,
-    quis fugiat natus hic quibusdam accusantium vero autem, officia nobis
-    laudantium nihil, ullam similique cumque. Repudiandae temporibus ipsum
-    quisquam consectetur quae.`,
-    skills: [''],
-    certificate: '',
-    joiningLetter: '',
+    detail: [
+      `Created over 50+ Articles on DSA topics such as Array, LinkedList, Trees and Graph.`,
+    ],
+    skills: ['DSA', 'Communication', 'English', 'Writing'],
   },
 ];
