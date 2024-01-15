@@ -13,8 +13,8 @@ export const education = [
     endDate: '2020',
   },
   {
-    college: 'SSC',
-    role: 'St Francis High School, Nashik',
+    college: 'St Francis High School, Nashik',
+    role: 'SSC',
     joinDate: '2017',
     endDate: '2018',
   },
