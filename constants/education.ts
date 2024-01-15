@@ -3,19 +3,19 @@ export const education = [
     college:
       'K. K. Wagh Institute Of Engineering Education And Research, Pune University',
     role: 'BE Computer',
-    joinDate: 'Jan 2024',
-    endDate: 'Present',
+    joinDate: '2020',
+    endDate: '2024',
   },
   {
     college: 'Matoshri Junior College, Nashik',
     role: 'HSC',
-    joinDate: 'Jan 2024',
-    endDate: 'Present',
+    joinDate: '2018',
+    endDate: '2020',
   },
   {
     college: 'SSC',
     role: 'St Francis High School, Nashik',
-    joinDate: 'Jan 2024',
-    endDate: 'Present',
+    joinDate: '2017',
+    endDate: '2018',
   },
 ];
