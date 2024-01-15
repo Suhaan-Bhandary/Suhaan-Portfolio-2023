@@ -24,6 +24,9 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   category: 'technology',
+  verification: {
+    google: 'kGyUpbXLn-r0ykvsjfRlcnhyIhSuZLHuuzGUu4RTAic',
+  },
 };
 
 export default function RootLayout({
