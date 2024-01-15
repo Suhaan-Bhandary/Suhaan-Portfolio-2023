@@ -77,9 +77,11 @@ export default function Header() {
           </div>
 
           <Link
-            href="#"
+            href="https://drive.google.com/file/d/15wJ9q40hEuuYshMJ-QXPdhm43bt4QZkF/view?usp=sharing"
             className="hidden rounded-sm border border-accent-400 px-4 py-2 text-sm text-accent-400 md:block"
             aria-label="resume"
+            target="_blank"
+            rel="noreferrer noopener"
           >
             Resume
           </Link>
