@@ -1,6 +1,6 @@
 import { projects } from '@/constants/projects';
 import getSlugFromString from '@/utils/getSlugFromString';
-import { Metadata, ResolvingMetadata } from 'next';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -10,16 +10,10 @@ type Props = {
   };
 };
 
-export async function generateMetadata(
-  { params }: Props,
-  parent: ResolvingMetadata,
-): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const project = projects.find(
     (project) => getSlugFromString(project.title) == params.projectId,
   );
-
-  // optionally access and extend (rather than replace) parent metadata
-  const previousImages = (await parent).openGraph?.images || [];
 
   return {
     title: `${project?.title} Project`,
@@ -29,10 +23,7 @@ export async function generateMetadata(
     },
     // First image is given priority
     openGraph: {
-      images: [
-        `/project/${params.projectId}/opengraph-image`,
-        ...previousImages,
-      ],
+      images: `/project/${params.projectId}/opengraph-image`,
     },
   };
 }
