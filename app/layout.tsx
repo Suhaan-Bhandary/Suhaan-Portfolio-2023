@@ -27,6 +27,7 @@ export const metadata: Metadata = {
   verification: {
     google: 'kGyUpbXLn-r0ykvsjfRlcnhyIhSuZLHuuzGUu4RTAic',
   },
+  themeColor: 'rgb(25,25,36)',
 };
 
 export default function RootLayout({
