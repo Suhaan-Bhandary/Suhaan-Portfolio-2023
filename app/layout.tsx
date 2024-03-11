@@ -2,7 +2,7 @@ import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import SideBar from '@/components/SideBar';
 import { BASE_URL } from '@/config/environment';
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Poppins } from 'next/font/google';
 import './globals.css';
 
@@ -27,8 +27,11 @@ export const metadata: Metadata = {
   verification: {
     google: 'kGyUpbXLn-r0ykvsjfRlcnhyIhSuZLHuuzGUu4RTAic',
   },
-  themeColor: 'rgb(25,25,36)',
 };
+
+export const viewport: Viewport = {
+  themeColor: 'rgb(25,25,36)',
+}
 
 export default function RootLayout({
   children,
