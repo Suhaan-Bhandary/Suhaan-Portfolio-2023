@@ -1,5 +1,6 @@
 import { experiences } from '@/constants/experiences';
 import Link from 'next/link';
+import { PiCertificateBold } from "react-icons/pi";
 
 export default function Experience() {
   return (
@@ -52,22 +53,22 @@ export default function Experience() {
                 {!!joiningLetter && (
                   <Link
                     href={joiningLetter}
-                    className="absolute right-5 top-5 rounded-md border-accent-400 bg-accent-400 bg-opacity-30 px-2 py-1 text-xs text-accent-400 text-opacity-90 hover:border"
+                    className="absolute right-5 top-5 rounded-md border-accent-400 px-2 py-1 text-xs text-accent-400 text-opacity-90 hover:border"
                     target="_blank"
                     aria-label="Joining Letter"
                   >
-                    Certificate
+                    <PiCertificateBold className="text-[1.25rem]"/>            
                   </Link>
                 )}
 
                 {!!certificate && (
                   <Link
                     href={certificate}
-                    className="absolute right-5 top-5 rounded-md border-accent-400 bg-accent-400 bg-opacity-30 px-2 py-1 text-xs text-accent-400 text-opacity-90 hover:border"
+                    className="absolute right-5 top-5 rounded-md border-accent-400 px-2 py-1 text-xs text-accent-400 text-opacity-90 hover:border"
                     target="_blank"
                     aria-label="Certificate"
                   >
-                    Certificate
+                    <PiCertificateBold className="text-[1.25rem]" />            
                   </Link>
                 )}
               </li>
