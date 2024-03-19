@@ -1,14 +1,10 @@
 import GraphVisualizer from '../assets/images/projects/AlgorithmVisualizer.png';
-import DjangoBlog from '../assets/images/projects/DjangoBlog.png';
 import Huffman from '../assets/images/projects/HuffmanCoding.png';
 import KMeanClustering from '../assets/images/projects/KMeanClustering.png';
 import LookUp from '../assets/images/projects/LookUp.png';
 import MazeGenerator from '../assets/images/projects/MazeGenerator.png';
-import QuineMcClusky from '../assets/images/projects/QuineMcCluskyMinimization.png';
-import StopWatch from '../assets/images/projects/StopWatch.png';
 import SudokuGame from '../assets/images/projects/SudokuGame.png';
 import TypingMultiplayer from '../assets/images/projects/TypingMultiplayer.png';
-import WarshallAlgorithm from '../assets/images/projects/WarshallAlgorithm.png';
 import CrystalFramework from '../assets/images/projects/crystal-framework.png';
 import InterviewExperience from '../assets/images/projects/interview-experience.png';
 import SobelFilter from '../assets/images/projects/sobel_filter.png';
@@ -70,7 +66,7 @@ export const projects = [
     techStack: ['Django', 'Django RestApi', 'React', 'Sqlite'],
     image: LookUp,
     codeURL: 'https://github.com/Suhaan-Bhandary/PBL-Website',
-    liveURL: 'https://suhaanchetanfenilpbl.pythonanywhere.com',
+    liveURL: '',
     infoURL: '',
   },
   {
@@ -122,18 +118,6 @@ export const projects = [
     infoURL: '',
   },
   {
-    title: 'Django Blog',
-    startDate: 'Dec 2020',
-    endDate: '',
-    detail:
-      'A Full Featured Django Blog with Markdown support. This Project has User and Admin Authentication and users can comment on blogs and others comments.',
-    techStack: ['Django', 'HTML/CSS', 'JavaScript', 'sqlite'],
-    image: DjangoBlog,
-    codeURL: '',
-    liveURL: 'http://suhaanbhandary.pythonanywhere.com',
-    infoURL: '',
-  },
-  {
     title: 'Sobel Filter',
     startDate: 'Apr 2023',
     endDate: '',
@@ -159,18 +143,6 @@ export const projects = [
     infoURL: '',
   },
   {
-    title: 'StopWatch',
-    startDate: 'June 2022',
-    endDate: '',
-    detail:
-      "It's a simple Stop-Watch created using HTML, CSS, and JS. It can be used as a stopwatch with custom sound for ring",
-    techStack: ['HTML', 'CSS', 'JavaScript'],
-    image: StopWatch,
-    codeURL: 'https://github.com/Suhaan-Bhandary/Stop-Watch-JS',
-    liveURL: 'https://suhaan-bhandary.github.io/Stop-Watch-JS',
-    infoURL: '',
-  },
-  {
     title: 'Huffman Coding',
     startDate: 'March 2022',
     endDate: '',
@@ -179,29 +151,6 @@ export const projects = [
     image: Huffman,
     codeURL: 'https://github.com/Suhaan-Bhandary/Huffman-Coding',
     liveURL: 'https://suhaan-bhandary.github.io/Huffman-Coding',
-    infoURL: '',
-  },
-  {
-    title: 'Warshall Algorithm',
-    startDate: 'October 2021',
-    endDate: '',
-    detail: 'Implementation of Warshall algorithm, to get Transitive Closures',
-    techStack: ['Chrome Extension', 'HTML/CSS', 'JavaScript'],
-    image: WarshallAlgorithm,
-    codeURL: 'https://github.com/Suhaan-Bhandary/warshallsAlgorithm',
-    liveURL: 'https://suhaan-bhandary.github.io/warshallsAlgorithm/',
-    infoURL: '',
-  },
-  {
-    title: 'Quine McClusky',
-    startDate: 'October 2021',
-    endDate: '',
-    image: QuineMcClusky,
-    detail:
-      'Implementation of Quine McClusky Minimization Technique in C++, created as a side project for DELD subject in Second Year',
-    techStack: ['C++', 'DSA'],
-    codeURL: 'https://github.com/Suhaan-Bhandary/QuineMcClusky',
-    liveURL: '',
     infoURL: '',
   },
 ];
