@@ -1,4 +1,5 @@
 import GraphVisualizer from '../assets/images/projects/AlgorithmVisualizer.png';
+import CelebrateLeetCode from '../assets/images/projects/CelebrateLeetcode.png';
 import Huffman from '../assets/images/projects/HuffmanCoding.png';
 import KMeanClustering from '../assets/images/projects/KMeanClustering.png';
 import LookUp from '../assets/images/projects/LookUp.png';
@@ -56,19 +57,7 @@ export const projects = [
     liveURL: '',
     infoURL:
       'https://drive.google.com/file/d/1zpJKvCFkl4Wh6YKSRx65sssgiICGtzxB/view',
-  },
-  {
-    title: 'LookUp',
-    startDate: 'Jun 2021',
-    endDate: '',
-    detail:
-      'A Bridge Between Teachers and Students, This project was a custom notification app where teachers can post assignments, news, and instructions, and students were notified using Gmail. It had an user base of 200 when Online Classes were going.',
-    techStack: ['Django', 'Django RestApi', 'React', 'Sqlite'],
-    image: LookUp,
-    codeURL: 'https://github.com/Suhaan-Bhandary/PBL-Website',
-    liveURL: '',
-    infoURL: '',
-  },
+  }, 
   {
     title: 'Typing Multiplayer',
     startDate: 'Aug 2021',
@@ -79,6 +68,18 @@ export const projects = [
     image: TypingMultiplayer,
     codeURL: 'https://github.com/Suhaan-Bhandary/TypingFightMultiplayer',
     liveURL: 'https://typing-fight.glitch.me',
+    infoURL: '',
+  }, 
+  {
+    title: 'LookUp',
+    startDate: 'Jun 2021',
+    endDate: '',
+    detail:
+      'A Bridge Between Teachers and Students, This project was a custom notification app where teachers can post assignments, news, and instructions, and students were notified using Gmail. It had an user base of 200 when Online Classes were going.',
+    techStack: ['Django', 'Django RestApi', 'React', 'Sqlite'],
+    image: LookUp,
+    codeURL: 'https://github.com/Suhaan-Bhandary/PBL-Website',
+    liveURL: '',
     infoURL: '',
   },
   {
@@ -93,6 +94,17 @@ export const projects = [
     liveURL: '',
     infoURL: '',
   },
+  {
+    title: 'Celebrate LeetCode',
+    startDate: 'Dec 2022',
+    endDate: '',
+    detail: 'LeetCode still does doesn\'t provide a way to search through the leader board of a contest, so this extension provides a way to search players using their username!!. It also has a celebrate feature which plays a sound whenever your code get\'s accepted on LeetCode.',
+    techStack: ['Chrome Extension', 'JavaScript', 'HTML', 'CSS'],
+    image: CelebrateLeetCode,
+    codeURL: 'https://github.com/Suhaan-Bhandary/Celebrate-LeetCode',
+    liveURL: '',
+    infoURL: '',
+  }, 
   {
     title: 'Sudoku',
     startDate: 'Oct 2021',
