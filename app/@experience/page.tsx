@@ -1,6 +1,6 @@
 import { experiences } from '@/constants/experiences';
 import Link from 'next/link';
-import { PiCertificateBold } from "react-icons/pi";
+import { PiCertificateBold } from 'react-icons/pi';
 
 export default function Experience() {
   return (
@@ -16,6 +16,7 @@ export default function Experience() {
               role,
               company,
               detail,
+              moreDetail,
               skills,
               joinDate,
               endDate,
@@ -34,6 +35,13 @@ export default function Experience() {
                     {detail.map((line, i) => (
                       <li key={i} className="my-2 text-textLight-400">
                         {line}
+                      </li>
+                    ))}
+                    {moreDetail?.map(({ detail, link }, i) => (
+                      <li key={i} className="my-2 text-accent-400">
+                        <Link href={link} target="_blank" aria-label={detail}>
+                          {detail}
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -57,7 +65,7 @@ export default function Experience() {
                     target="_blank"
                     aria-label="Joining Letter"
                   >
-                    <PiCertificateBold className="text-[1.25rem]"/>            
+                    <PiCertificateBold className="text-[1.25rem]" />
                   </Link>
                 )}
 
@@ -68,7 +76,7 @@ export default function Experience() {
                     target="_blank"
                     aria-label="Certificate"
                   >
-                    <PiCertificateBold className="text-[1.25rem]" />            
+                    <PiCertificateBold className="text-[1.25rem]" />
                   </Link>
                 )}
               </li>

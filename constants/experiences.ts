@@ -18,6 +18,12 @@ export const experiences = [
       `Worked on a Learning Management System for the Ministry of Education of Ghana, Africa.`,
       `Improved performance by reducing queries to the database. Also rectified AWS build configuration for a service within the application. Organized code into components to properly manage state, reducing the total re-renders.`,
     ],
+    moreDetail: [
+      {
+        detail: 'LMS System Launch',
+        link: 'https://www.youtube.com/watch?v=uKxyMuqu_5M&t=1093s',
+      },
+    ],
     skills: [
       'ReactJs',
       'ExpressJs',
