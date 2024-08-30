@@ -1,3 +1,4 @@
+import { resumeLink } from '@/constants/experiences';
 import Link from 'next/link';
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       </p>
 
       <Link
-        href="https://drive.google.com/file/d/1Suzrk1WuVVmymz6haKzl8_n_jI5oLgC4/view?usp=sharing"
+        href={resumeLink}
         className="relative block w-fit rounded-sm border border-accent-400 px-6 py-4 text-sm text-accent-400"
         target="_blank"
         rel="noreferrer noopener"

@@ -1,5 +1,6 @@
 'use client';
 
+import { resumeLink } from '@/constants/experiences';
 import { useStopScroll } from '@/hooks/useStopScroll';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -77,7 +78,7 @@ export default function Header() {
           </div>
 
           <Link
-            href="https://drive.google.com/file/d/1Suzrk1WuVVmymz6haKzl8_n_jI5oLgC4/view?usp=sharing"
+            href={resumeLink}
             className="hidden rounded-sm border border-accent-400 px-4 py-2 text-sm text-accent-400 md:block"
             aria-label="resume"
             target="_blank"

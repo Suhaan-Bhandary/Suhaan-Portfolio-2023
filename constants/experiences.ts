@@ -1,3 +1,5 @@
+export const resumeLink = "https://drive.google.com/file/d/1QxocBJL1z5REKnKX0TOklx-3AZL54nmg/view?usp=sharing";
+
 export const experiences = [
   {
     role: 'Intern',
