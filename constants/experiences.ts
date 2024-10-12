@@ -2,12 +2,15 @@ export const resumeLink = "https://drive.google.com/file/d/1QxocBJL1z5REKnKX0TOk
 
 export const experiences = [
   {
-    role: 'Intern',
+    role: 'Software Engineer',
     company: 'Josh Software Pvt. Ltd',
     joinDate: 'Jan 2024',
     endDate: 'Present',
-    detail: [`Joined Josh as an Intern recently in Jan 2024.`],
-    skills: ['React', 'Golang', 'Git', 'SQL'],
+    detail: [
+      `Developing RESTful APIs and SCIM Protocol using GoLang, focused on Networking and security.`,
+      `Collaborated with team members to troubleshoot issues and optimize MySQL queries.`,
+    ],
+    skills: ['Golang', 'Git', 'MySQL', 'Google Cloud'],
     joiningLetter:
       'https://drive.google.com/file/d/1PrMA-6Li5sGQ4yyNoAsJHcjtFdLhZOKX/view?usp=sharing',
   },
