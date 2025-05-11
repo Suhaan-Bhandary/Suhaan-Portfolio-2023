@@ -11,6 +11,7 @@ export const experiences = [
       `Collaborated with team members to troubleshoot issues and optimize MySQL queries.`,
     ],
     skills: ['Golang', 'Git', 'MySQL', 'Google Cloud'],
+    joiningLetter: '',
   },
   {
     role: 'Full Stack Developer',
