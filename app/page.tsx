@@ -6,19 +6,18 @@ export default function Home() {
     <section className="min-h-svhScreen container mx-auto flex flex-col justify-center">
       <h1 className="mb-1">
         <span className="ml-1 block text-base text-accent-400 md:mb-4 md:text-xl">
-          Hi, my name is
+          Hello there, I’m
         </span>
         <span className="block text-2xl font-bold text-textLight-600 md:text-4xl lg:text-6xl">
           Suhaan Bhandary.
         </span>
       </h1>
       <h2 className="text-2xl font-bold text-textLight-400 md:text-3xl lg:text-5xl">
-        I engineer solutions for users.
+        Building Software for Scale
       </h2>
-      <p className="my-4 text-textLight-400 md:max-w-[50ch]">
-        Full Stack Developer with a passion for innovation, specializing in
-        React, Express, and TypeScript, dedicated to crafting seamless solutions
-        and enhancing user experiences.
+      <p className="my-4 text-textLight-400 md:max-w-[55ch]">
+        Passionate about creating intuitive and engaging user experiences.
+        Specialize in transforming ideas into beautifully crafted products.
       </p>
 
       <Link

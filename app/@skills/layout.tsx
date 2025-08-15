@@ -9,7 +9,7 @@ export default function SkillsLayouts({
 }) {
   return (
     <div className="container mx-auto mb-28 mt-16 scroll-m-24" id="skills">
-      <h2 className="mb-6 text-center text-4xl md:mb-14">About Me</h2>
+      <h2 className="mb-6 text-center text-4xl md:mb-14 font-semibold">About Me</h2>
       <div className="md:grid md:grid-cols-2">
         <div className="mx-auto mb-6 hidden overflow-hidden rounded-sm md:mb-0 md:block md:translate-y-2">
           <Image

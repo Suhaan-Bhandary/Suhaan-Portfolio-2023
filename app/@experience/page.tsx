@@ -8,7 +8,7 @@ export default function Experience() {
       className="min-h-lvhScreen my-10 flex scroll-m-24 flex-col items-center justify-center"
       id="experience"
     >
-      <h2 className="mb-10 text-4xl md:mb-14">Experience</h2>
+      <h2 className="mb-10 text-4xl md:mb-14 font-semibold">Experience</h2>
       <div className="relative mx-auto max-w-[800px] lg:before:absolute lg:before:left-[50%] lg:before:h-full lg:before:w-[2px] lg:before:translate-x-[-50%] lg:before:rounded-full lg:before:bg-textLight-400 lg:before:content-['']">
         <ul>
           {experiences.map(

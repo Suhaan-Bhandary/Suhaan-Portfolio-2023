@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   themeColor: 'rgb(25,25,36)',
-}
+};
 
 export default function RootLayout({
   children,
@@ -39,12 +39,16 @@ export default function RootLayout({
   skills,
   experience,
   projects,
+  conferences,
+  blogs,
 }: {
   children: React.ReactNode;
   modal: React.ReactNode;
   skills: React.ReactNode;
   experience: React.ReactNode;
   projects: React.ReactNode;
+  conferences: React.ReactNode;
+  blogs: React.ReactNode;
 }) {
   return (
     <html lang="en">
@@ -57,6 +61,8 @@ export default function RootLayout({
           {skills}
           {experience}
           {projects}
+          {conferences}
+          {blogs}
           <Footer />
         </main>
       </body>
